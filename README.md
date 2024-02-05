@@ -1,4 +1,4 @@
-__DIABATES PREDICTION MODEL__
+# DIABATES PREDICTION MODEL
 <br/><br/>
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)<br/> 
 • This repository consists of files required to make a model of diabates predictor ___Machine Learning Web App___ created with ___Flask___ .
