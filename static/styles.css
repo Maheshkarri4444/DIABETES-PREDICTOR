@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body, h1, h2, p, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-heading {
+    font-size: 36px;
+    color: #333;
+}
+
+.description {
+    margin-top: 10px;
+    color: #666;
+}
+
+.ml-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.form-input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.my-cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.my-cta-button:hover {
+    background-color: #45a049;
+}
+
+.results {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.results h1 {
+    font-size: 24px;
+}
+
+.danger {
+    color: #FF0000;
+}
+
+.safe {
+    color: #008000;
+}
+
+.gif, .gif1 {
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact-icon {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.footer-description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .form-input {
+        width: 100%;
+    }
+}
